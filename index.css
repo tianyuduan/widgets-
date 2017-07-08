@@ -1,0 +1,62 @@
+html, body,div,span,h1,h2,h3,center,header,section,figure,p,li,ol,ul,img{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+
+.div{
+}
+
+.weather {
+  font-size: 25px;
+  font-family: "Open Sans";
+  margin: 10px;
+  padding: 25px;
+  border: 10px;
+  background-color: black;
+  background-image: url(https://media.giphy.com/media/4g59GqfLKtVpS/giphy.gif);
+  /*float: left;*/
+}
+
+.weather p{
+  color: black;
+  text-shadow:
+  -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+     1px 1px 0 #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.time{
+  font-size: 25px;
+  font-family: "Open Sans";
+  margin: 10px;
+  padding: 25px;
+  border: 10px;
+  background-color: black;
+  background-image: url(https://media.giphy.com/media/112jVj3oFhHoHu/giphy.gif);
+  /*float: left;*/
+}
+
+.time p{
+  color: black;
+  text-shadow:
+  -1px -1px 0 #FFF,
+    1px -1px 0 #FFF,
+    -1px 1px 0 #FFF,
+     1px 1px 0 #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
